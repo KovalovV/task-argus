@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": "src",
+    "types": ["node"],
+    "jsx": "react"
+  },
+  "include": ["src"],
+  "exclude": ["node_modelus", "public"]
+}

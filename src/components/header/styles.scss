@@ -1,0 +1,30 @@
+$header-grey-text: #666666;
+
+%header-text {
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: bold;
+}
+
+.header {
+  padding: 0px 10px;
+
+  &__title {
+    display: flex;
+    @extend %header-text;
+    color: black;
+
+    @media (max-width: 645px) {
+      flex-direction: column;
+    }
+  }
+
+  &__login {
+    @extend %header-text;
+    color: $header-grey-text;
+  }
+
+  &__status {
+    flex-grow: 1;
+  }
+}

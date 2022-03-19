@@ -1,0 +1,14 @@
+$form-checkbox-border: #999999;
+$form-checkbox-error-border: #ff0000;
+
+$select-background-color: #ffffff;
+
+.form-checkbox {
+  display: flex;
+  width: 100%;
+
+  &__label {
+    flex-basis: 350px;
+    padding: 0px 10px;
+  }
+}

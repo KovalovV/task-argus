@@ -1,42 +1,42 @@
 [
-    {
-        "city": "Bangor",
-        "population": "1688"
-    },
-    {
-        "city": "Bath",
-        "population": "105259"
-    },
-    {
-        "city": "Belfast",
-        "population": "19819"
-    },
-    {
-        "city": "Birmingham",
-        "population": "16061"
-    },
-    {
-        "city": "Bristol",
-        "population": "29195"
-    },
-    {
-        "city": "Cambridge",
-        "population": "21015"
-    },
-    {
-        "city": "Canterbury",
-        "population": "17805"
-    },
-    {
-        "city": "Carlisle",
-        "population": "83857"
-    },
-    {
-        "city": "Chester",
-        "population": "10286"
-    },
-    {
-        "city": "Derby1",
-        "population": "61915"
-    }
+  {
+    "city": "Bangor",
+    "population": "1688"
+  },
+  {
+    "city": "Bath",
+    "population": "105259"
+  },
+  {
+    "city": "Belfast",
+    "population": "19819"
+  },
+  {
+    "city": "Birmingham",
+    "population": "16061"
+  },
+  {
+    "city": "Bristol",
+    "population": "29195"
+  },
+  {
+    "city": "Cambridge",
+    "population": "21015"
+  },
+  {
+    "city": "Canterbury",
+    "population": "17805"
+  },
+  {
+    "city": "Carlisle",
+    "population": "83857"
+  },
+  {
+    "city": "Chester",
+    "population": "10286"
+  },
+  {
+    "city": "Derby1",
+    "population": "61915"
+  }
 ]

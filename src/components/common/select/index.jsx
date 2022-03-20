@@ -2,7 +2,7 @@ import { citiesSelect } from "utils/cities-select";
 
 import "./styles.scss";
 
-const Select = ({ data, field, isError }) => {
+export const Select = ({ data, field, isError }) => {
   const filterData = citiesSelect(data);
 
   return (
@@ -21,5 +21,3 @@ const Select = ({ data, field, isError }) => {
     </select>
   );
 };
-
-export default Select;

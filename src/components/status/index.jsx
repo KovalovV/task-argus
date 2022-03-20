@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import Input from "components/common/input";
-import Button from "components/common/button";
+import { Input } from "components/common/input";
+import { Button } from "components/common/button";
 
 import "./styles.scss";
 
@@ -9,32 +9,27 @@ export const Status = () => {
   const [isDisable, setIsDisable] = useState(true);
   const [status, setStatus] = useState("Все буде Україна!");
 
-  const onChangeEdit = (event) => {
+  const handleChangeEdit = (event) => {
     setStatus(event.target.value);
   };
 
-  const onClickSave = () => {
+  const handleClickSave = () => {
     setIsDisable((prevState) => !prevState);
   };
 
   return (
-    <form
-      className="form-status"
-      onSubmit={(e) => {
-        e.preventDefault();
-      }}
-    >
+    <div className="form-status">
       <Input
         type="text"
         value={status}
         disabled={isDisable}
-        onChange={onChangeEdit}
+        onChange={handleChangeEdit}
       />
       <Button
         type="status"
-        onClick={onClickSave}
+        onClick={handleClickSave}
         label={isDisable ? "Змінити статус" : "Зберегти"}
       />
-    </form>
+    </div>
   );
 };

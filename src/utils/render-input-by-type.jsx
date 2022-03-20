@@ -1,7 +1,7 @@
-import Input from "components/common/input";
-import Select from "components/common/select";
-import Checkbox from "components/common/checkbox";
-import Button from "components/common/button";
+import { Input } from "components/common/input";
+import { Select } from "components/common/select";
+import { Checkbox } from "components/common/checkbox";
+import { Button } from "components/common/button";
 
 import cities from "config/cities.json";
 

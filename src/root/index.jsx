@@ -8,7 +8,7 @@ import "./styles.scss";
 
 dayjs.locale("uk");
 
-export const App = () => {
+export const Root = () => {
   return (
     <div className="container">
       <Header />

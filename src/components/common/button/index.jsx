@@ -1,6 +1,6 @@
 import "./styles.scss";
 
-const Button = ({ onClick, type, label }) =>
+export const Button = ({ onClick, type, label }) =>
   type === "submit" ? (
     <button className="form-button" type="submit">
       <span className="form-button__label">{label}</span>
@@ -10,5 +10,3 @@ const Button = ({ onClick, type, label }) =>
       <span className="form-status-button__label">{label}</span>
     </button>
   );
-
-export default Button;

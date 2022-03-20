@@ -1,6 +1,6 @@
 import "./styles.scss";
 
-const Input = ({ onChange, value, disabled, type, field, isError }) =>
+export const Input = ({ onChange, value, disabled, type, field, isError }) =>
   type !== "text" ? (
     <input
       className={`form-input ${isError && `form-input_error`}`}
@@ -20,5 +20,3 @@ const Input = ({ onChange, value, disabled, type, field, isError }) =>
       />
     </div>
   );
-
-export default Input;
